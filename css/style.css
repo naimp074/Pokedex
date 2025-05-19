@@ -12,3 +12,21 @@ main{
       max-height: 150px;
       object-fit: contain;
     }
+.type-label {
+      margin-right: 5px;
+      padding: 0.25em 0.6em;
+      font-size: 0.8em;
+      border-radius: 5px;
+      color: white;
+    }
+    .Planta { background-color: #78C850; }
+    .Veneno { background-color: #A040A0; }
+    .pokemon-card {
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .pokemon-card:hover {
+      transform: scale(1.03);
+    }
